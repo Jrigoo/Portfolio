@@ -18,15 +18,14 @@ export const Hero = () => {
         <article>
           <p className="px-2">Hello I&apos;m</p>
           <h1>Juan Riquelme</h1>
-          <h2 className="text-rich-gradient">
-            Software Developer & Data Enthusiast
-          </h2>
+          <h2 className="text-rich-gradient">Electronics Engineer Student</h2>
 
           {/* Description */}
           <p className="my-3">
-            I am a professional focused on the development and leadership of
-            training programs in the business field with a strong background in
-            electronic engineering and a passion for data analysis.
+            I’m a 23 years old electronics engineer student currently at last
+            semester. I am constantly learning, so if I don’t know something
+            today, tomorrow I will. I’m excited to continue to grow in my career
+            and contribute to the success of organizations.
           </p>
 
           {/* Let's Connect */}

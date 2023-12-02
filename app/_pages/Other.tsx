@@ -6,52 +6,41 @@ import { faFolder } from "@fortawesome/free-regular-svg-icons";
 
 const projects = [
   {
-    id: 1,
-    title: "Google Clone",
+    title: "AIESEC Exchanges Form",
     description:
-      "This Google Clone Project is a fullstack web application. It aims to replicate the core functionalities and design of the popular search engine Google.",
+      "This form provides AIESEC a tool to connect clients to internship or volunteer opportunities abroad and gather their info diretly into the Podio CRM",
     isFeatured: false,
-    github: "https://github.com/Jrigoo/Google-clone-v2",
-    deploy: "https://jrigoo-google.vercel.app/",
-    image:
-      "https://github.com/Jrigoo/Google-clone-v2/raw/main/public/images/Google%20Main.png",
-    techstack: ["Next.js", "Tailwind CSS", "Google API"],
+    github: "https://github.com/Jrigoo/AIESEC-Exchanges",
+    deploy: "https://aiesec-pty-register.vercel.app/",
+    techstack: ["Next.js", "Typescript", "Tailwind CSS", "Podio API"],
   },
   {
-    id: 2,
-    title: "Google Clone",
+    title: "Block Color Classifier",
     description:
-      "This Google Clone Project is a fullstack web application. It aims to replicate the core functionalities and design of the popular search engine Google.",
+      "In this project I was capable to control a robot using the Coppelia Sim simulator in order to classify a group of blocks based on their colors",
     isFeatured: false,
-    github: "https://github.com/Jrigoo/Google-clone-v2",
-    deploy: "https://jrigoo-google.vercel.app/",
-    image:
-      "https://github.com/Jrigoo/Google-clone-v2/raw/main/public/images/Google%20Main.png",
-    techstack: ["Next.js", "Tailwind CSS", "Google API", "Javascript"],
+    github: "https://github.com/Jrigoo/Block-Classifier",
+    deploy: "https://github.com/Jrigoo/Block-Classifier",
+    techstack: ["Python", "Coppelia Sim", "Open CV"],
   },
   {
-    id: 2,
     title: "Google Clone",
     description:
       "This Google Clone Project is a fullstack web application. It aims to replicate the core functionalities and design of the popular search engine Google.",
     isFeatured: false,
-    github: "https://github.com/Jrigoo/Google-clone-v2",
+    github: "https://github.com/Jrigoo/Google-Clone",
     deploy: "https://jrigoo-google.vercel.app/",
-    image:
-      "https://github.com/Jrigoo/Google-clone-v2/raw/main/public/images/Google%20Main.png",
     techstack: ["Next.js", "Tailwind CSS", "Google API", "Javascript"],
   },
+
   {
-    id: 2,
-    title: "Google Clone",
+    title: "Countries",
     description:
-      "This Google Clone Project is a fullstack web application. It aims to replicate the core functionalities and design of the popular search engine Google.",
+      "Javascript page that reads REST countries API. Using webpack as bundler and babel as compiler. This is one of the front end mentor challenges",
     isFeatured: false,
-    github: "https://github.com/Jrigoo/Google-clone-v2",
-    deploy: "https://jrigoo-google.vercel.app/",
-    image:
-      "https://github.com/Jrigoo/Google-clone-v2/raw/main/public/images/Google%20Main.png",
-    techstack: ["Next.js", "Tailwind CSS", "Google API", "Javascript"],
+    github: "https://github.com/Jrigoo/Countries",
+    deploy: "https://jrigoo-countries-api.netlify.app/",
+    techstack: ["Javascript", "Rest API"],
   },
 ];
 
@@ -84,12 +73,8 @@ export const Other = () => {
                 <FontAwesomeIcon icon={faGithub} className="text-3xl" />
               </a>
             </header>
-            <h3>Google Clon</h3>
-            <p>
-              I am a professional focused on the development and leadership of
-              training programs in the business field with a strong background
-              in electronic engineering and a passion for data analysis.
-            </p>
+            <h3>{project.title}</h3>
+            <p className="text-justify">{project.description}</p>
 
             {/* Tech stack */}
             <ul className="flex flex-wrap gap-x-2 font-mono text-sm text-pink mt-3">

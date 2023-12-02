@@ -14,13 +14,13 @@ const eduExp = [
         date: "2019-2024",
         title: "Electronics Engineering",
         description:
-          "Currently Studying my last semester at Universidad Tecnológica de Panamá. My GPA is 2.5 of 3",
+          "Currently studying the last semester of the Electronics Engineering degree with a GPA of 2.52 out of 3",
       },
       {
         date: "2022",
         title: "Platzi",
         description:
-          "I'm always like to learn by myself. Currently doing the Data Analysis and Data Science with Python routes",
+          "I'm always like to learn by myself. Currently doing the Data Science with Python route",
       },
     ],
   },
@@ -28,16 +28,16 @@ const eduExp = [
     type: "Experience",
     content: [
       {
-        date: "2022-2023",
-        title: "Program Manager",
+        date: "Jun 2022 - Jul 2023",
+        title: "Product Specialist in AIESEC",
         description:
-          "Worked as a Program Manager in AIESEC, managed team of more than 20 volunteers, and deliver a program for more than 45 clients",
+          "Director of Leaders Lab, a program for young people based on Design Thinking and Project Management",
       },
       {
-        date: "2020-2021",
-        title: "Business Intelligence for AM",
+        date: "Jan 2022 - Jul 2022",
+        title: "Data Developer in AIESEC",
         description:
-          "Worked as a Business Intelligence Analyst in charge of developing tools for partners to generate growth",
+          "In this role I was responsible for generating software solutions to efficiently automate processes that drive sales growth",
       },
     ],
   },

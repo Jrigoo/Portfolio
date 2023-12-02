@@ -13,7 +13,7 @@ const nanum = Nanum_Pen_Script({ weight: ["400"], subsets: ["latin"] });
 export const About = () => {
   return (
     <section
-      className="min-h-screen grid place-items-center md:grid-cols-2 mb-20"
+      className="min-h-screen grid place-items-center md:grid-cols-2 mb-20 pr-10"
       id="About Me"
     >
       {/* About Me Text */}
@@ -23,24 +23,17 @@ export const About = () => {
           <FontAwesomeIcon icon={faMap} className="text-sm text-green" />
           <h4 className="font-mono text-rich-gradient font-bold">Panamá</h4>
         </div>
-        <p className="py-3">
-          I am a <b>professional</b> focused on the development and leadership
-          of programs in the business field with a background in electronic
-          engineering and a passion for data analysis.
-          <br />
-          <br />
-          My experience as a manager of a leadership program has allowed me to
-          develop solid skills in team management and learning facilitation. I
-          have designed and executed strategies that have helped develop my
-          leadership and teamwork skills. My focus has been on personal
-          development, fostering effective communication skills, problem
-          solving, and decision making.
+        <p className="py-3 text-justify">
+          I am an electronics engineer student with some management experience,
+          a passion for electronics, data science and software. My combination
+          of technical and interpresonal skills allows me to approach projects
+          holistically and provide effective solutions.
         </p>
       </div>
 
       {/* CV Stage */}
       <div className="flex flex-col items-center">
-        <a href="">
+        <a href="https://drive.google.com/file/d/1HyRPwsgVJbi2RxGgKUgu0nv9scOwWCbA/view?usp=sharing">
           <Image className="h-[170px]" priority src={CV} alt="CV laptop icon" />
         </a>
         <Image className="h-[35px]" priority src={Arrow} alt="Arrow icon" />

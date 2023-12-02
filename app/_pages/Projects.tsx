@@ -1,50 +1,55 @@
 import Image from "next/image";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-import { PrismaClient, Prisma } from "@prisma/client";
+import Autonomous from "../../public/Autonomous.png";
+import TNGO from "../../public/TNGO.svg";
 
-export const Projects = async () => {
-  /*  
-  const prisma = new PrismaClient();
-  const featuredProjects = await prisma.projects.findMany({
-    where: {
-      isFeatured: true,
-    },
-  }); */
-
+export const Projects = () => {
   const featuredProjects = [
     {
       id: 1,
-      title: "Google Clone",
+      title: "Autonomous Trash Can",
       description:
-        "This Google Clone Project is a fullstack web application. It aims to replicate the core functionalities and design of the popular search engine Google.",
+        "The TNGO is an autonomous trash can that allows you to recycle waste. For this first version, the prototype is capable of classifying papers, cans and plastic bottles. The device uses audio and image neural networks for the classification.",
       isFeatured: true,
-      github: "https://github.com/Jrigoo/Google-clone-v2",
-      deploy: "https://jrigoo-google.vercel.app/",
-      image:
-        "https://github.com/Jrigoo/Google-clone-v2/raw/main/public/images/Google%20Main.png",
-      techstack: ["Next.js", "Tailwind CSS", "Google API"],
+      github: "https://github.com/Jrigoo/TNGO-Neural-Networks",
+      deploy: "https://github.com/Jrigoo/TNGO-Neural-Networks",
+      image: TNGO,
+      techstack: [
+        "Fusion-360",
+        "Python",
+        "Tensorflow",
+        "Keras",
+        "Raspberry Pi",
+        "Electronics",
+      ],
     },
     {
       id: 2,
-      title: "Google Clone",
+      title: "Autonomous Vehicle",
       description:
-        "This Google Clone Project is a fullstack web application. It aims to replicate the core functionalities and design of the popular search engine Google.",
+        "In this project I was capable to control a vehicle so it can read GPS data to move through a path autonomously. It was using the MORAI Sim simulator",
       isFeatured: true,
-      github: "https://github.com/Jrigoo/Google-clone-v2",
-      deploy: "https://jrigoo-google.vercel.app/",
-      image:
-        "https://github.com/Jrigoo/Google-clone-v2/raw/main/public/images/Google%20Main.png",
-      techstack: ["Next.js", "Tailwind CSS", "Google API", "Javascript"],
+      github: "https://github.com/Jrigoo/Simple-Autonomous-Vehicle",
+      deploy: "https://github.com/Jrigoo/Simple-Autonomous-Vehicle",
+      image: Autonomous,
+      techstack: [
+        "Python",
+        "UDP-Sockets",
+        "open cv",
+        "matplotlib",
+        "numpy",
+        "scipy",
+        "pyproj",
+      ],
     },
   ];
   return (
     <section className="min-h-screen mb-5" id="Projects">
       <header>
         <h1>Projects</h1>
-        <p className="font-mono md:my-3">Things I have Made</p>
+        <p className="font-mono md:my-3">Things I have Made. Deploy and Code</p>
       </header>
 
       {/* Featured Projects */}
