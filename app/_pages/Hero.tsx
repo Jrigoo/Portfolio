@@ -20,9 +20,10 @@ export const Hero = () => {
         <h2 className="text-rich-gradient">Electronics Engineer Student</h2>
 
         {/* Description */}
-        <p className="my-3">
-          I’m a 23 years old electronics engineer student with desire for
-          development and growth
+        <p className="my-3 w-full sm:w-[90%]">
+          Hello! I&apos;m a 23-year-old electronics engineering student, driven
+          by a passion for development and growth. Explore my portfolio to see
+          my development journey
         </p>
 
         {/* Let's Connect */}

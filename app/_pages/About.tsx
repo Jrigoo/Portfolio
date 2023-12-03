@@ -24,10 +24,11 @@ export const About = () => {
           <h4 className="font-mono text-rich-gradient font-bold">Panamá</h4>
         </div>
         <p className="py-3 text-justify">
-          I am an electronics engineer student with some management experience,
-          a passion for electronics, data science and software. My combination
-          of technical and interpresonal skills allows me to approach projects
-          holistically and provide effective solutions.
+          I&apos;m currently studying electronics engineering. I enjoy bringing
+          ideas to life, exploring data, and experimenting with software. My
+          skills enable me to approach projects from various perspectives and
+          find effective solutions. Download my Curriculum by clicking the
+          laptop beside this text
         </p>
       </div>
 
