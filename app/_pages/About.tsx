@@ -13,7 +13,7 @@ const nanum = Nanum_Pen_Script({ weight: ["400"], subsets: ["latin"] });
 export const About = () => {
   return (
     <section
-      className="min-h-screen grid place-items-center md:grid-cols-2 mb-20 pr-10"
+      className="min-h-screen grid place-items-center md:grid-cols-2 mb-20 sm:pr-10"
       id="About Me"
     >
       {/* About Me Text */}

@@ -45,7 +45,7 @@ const eduExp = [
 
 export const Education = () => {
   return (
-    <section className="mb-20 min-h-screen">
+    <section className="min-h-screen">
       <header className="text-center mb-5">
         <h1>Education & Experience</h1>
         <p className="font-mono md:my-3">My personal journey</p>
