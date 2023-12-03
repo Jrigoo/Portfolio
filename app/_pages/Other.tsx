@@ -19,8 +19,8 @@ const projects = [
     description:
       "In this project I was capable to control a robot using the Coppelia Sim simulator in order to classify a group of blocks based on their colors",
     isFeatured: false,
-    github: "https://github.com/Jrigoo/Block-Classifier",
-    deploy: "https://github.com/Jrigoo/Block-Classifier",
+    github: "https://github.com/Jrigoo/Blocks-Classifier",
+    deploy: "https://github.com/Jrigoo/Blocks-Classifier",
     techstack: ["Python", "Coppelia Sim", "Open CV"],
   },
   {
@@ -34,9 +34,9 @@ const projects = [
   },
 
   {
-    title: "Countries",
+    title: "Countries REST API",
     description:
-      "Javascript page that reads REST countries API. Using webpack as bundler and babel as compiler. This is one of the front end mentor challenges",
+      "This is a Javascript page that reads REST countries API using webpack as bundler and babel as compiler. This is one of the front end mentor challenges",
     isFeatured: false,
     github: "https://github.com/Jrigoo/Countries",
     deploy: "https://jrigoo-countries-api.netlify.app/",

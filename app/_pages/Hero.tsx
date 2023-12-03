@@ -23,9 +23,8 @@ export const Hero = () => {
           {/* Description */}
           <p className="my-3">
             I’m a 23 years old electronics engineer student currently at last
-            semester. I am constantly learning, so if I don’t know something
-            today, tomorrow I will. I’m excited to continue to grow in my career
-            and contribute to the success of organizations.
+            semester. I’m excited to continue to grow in my career and
+            contribute to the success of organizations.
           </p>
 
           {/* Let's Connect */}

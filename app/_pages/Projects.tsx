@@ -37,11 +37,11 @@ export const Projects = () => {
       techstack: [
         "Python",
         "UDP-Sockets",
-        "open cv",
-        "matplotlib",
-        "numpy",
-        "scipy",
-        "pyproj",
+        "Open CV",
+        "Matplotlib",
+        "Numpy",
+        "Scipy",
+        "Pyproj",
       ],
     },
   ];
@@ -49,7 +49,7 @@ export const Projects = () => {
     <section className="min-h-screen mb-5" id="Projects">
       <header>
         <h1>Projects</h1>
-        <p className="font-mono md:my-3">Things I have Made. Deploy and Code</p>
+        <p className="font-mono md:my-3">Some projects I have worked on</p>
       </header>
 
       {/* Featured Projects */}
