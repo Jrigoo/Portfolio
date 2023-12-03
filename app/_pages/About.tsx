@@ -1,14 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import { faMap } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import CV from "../../public/CV.svg";
 import Arrow from "../../public/Arrow.svg";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMap } from "@fortawesome/free-solid-svg-icons";
-
-import { Nanum_Pen_Script } from "next/font/google";
-const nanum = Nanum_Pen_Script({ weight: ["400"], subsets: ["latin"] });
 
 export const About = () => {
   return (
@@ -38,7 +34,7 @@ export const About = () => {
           <Image className="h-[170px]" priority src={CV} alt="CV laptop icon" />
         </a>
         <Image className="h-[35px]" priority src={Arrow} alt="Arrow icon" />
-        <h3 className={nanum.className}>Download cv.</h3>
+        <h3 className="font-nanum font-light">Download cv.</h3>
       </div>
     </section>
   );

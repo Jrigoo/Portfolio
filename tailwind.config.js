@@ -16,6 +16,11 @@ module.exports = {
         pink: "#9D86AA",
         "blue-filter": "rgba(74,76,110,0.1)",
       },
+      fontFamily: {
+        poppins: ["var(--font-poppins)"],
+        nanum: ["var(--font-nanum)"],
+        mono: ["var(--font-fira-mono)"],
+      },
     },
   },
   plugins: [],
