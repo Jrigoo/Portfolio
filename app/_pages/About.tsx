@@ -20,17 +20,17 @@ export const About = () => {
           <h4 className="font-mono text-rich-gradient font-bold">Panamá</h4>
         </div>
         <p className="py-3 text-justify">
-          I&apos;m currently ending electronics engineering. I enjoy bringing
-          ideas to life, exploring data, and experimenting with software. My
-          skills enable me to approach projects from various perspectives and
-          find effective solutions. Download my Curriculum by clicking the
-          laptop beside this text
+          I&apos;m a analytics engineer. I enjoy bringing ideas to life,
+          exploring data, and experimenting with software. My skills enable me
+          to approach projects from various perspectives and find effective
+          solutions. Download my Curriculum by clicking the laptop beside this
+          text
         </p>
       </div>
 
       {/* CV Stage */}
       <div className="flex flex-col items-center">
-        <a href="https://drive.google.com/file/d/1I-MHzRkJoH_0DnzWCe-dWiAHchIQEZqK/view?usp=drivesdk">
+        <a href="https://drive.google.com/file/d/1OrsSa5k-Wpdtr8xkyzXxsV0ysEHd2xny/view?usp=sharing">
           <Image className="h-[170px]" priority src={CV} alt="CV laptop icon" />
         </a>
         <Image className="h-[35px]" priority src={Arrow} alt="Arrow icon" />

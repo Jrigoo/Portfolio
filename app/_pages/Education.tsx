@@ -11,16 +11,16 @@ const eduExp = [
     type: "Education",
     content: [
       {
-        date: "2019-2024",
+        date: "2019-2023",
         title: "Electronics Engineering",
         description:
-          "Currently studying the last semester of the Electronics Engineering degree with a GPA of 2.52 out of 3",
+          "Electronics Engineering degree with a GPA of 2.59 out of 3. Focused on embedded systems, IoT, data science, and autonomous systems.",
       },
       {
         date: "2022",
         title: "Platzi",
         description:
-          "I'm always like to learn by myself. Currently doing the Data Science with Python route",
+          "I'm always like to learn by myself. Crrently in ML and AI Engineering Paths",
       },
     ],
   },
@@ -28,16 +28,16 @@ const eduExp = [
     type: "Experience",
     content: [
       {
-        date: "Jun 2022 - Jul 2023",
-        title: "Product Specialist in AIESEC",
+        date: "Dec 2024 - Current",
+        title: "Analytics Engineer at AB InBev",
         description:
-          "Director of Leaders Lab, a program for young people based on Design Thinking and Project Management",
+          "Own end-to-end data pipelines, from data ingestion to transformation and visualization, ensuring data accuracy and reliability for business decision-making.",
       },
       {
-        date: "Jan 2022 - Jul 2022",
-        title: "Data Developer in AIESEC",
+        date: "Aug 2024 - Dec 2024",
+        title: "Associate Project Manager at ABB",
         description:
-          "In this role I was responsible for generating software solutions to efficiently automate processes that drive sales growth",
+          "Managed a functional Mockup of NEOMs Port (Saudi Arabia) electrical system, coordinating a multidisciplinary team to ensure timely delivery and quality standards.",
       },
     ],
   },

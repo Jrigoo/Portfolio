@@ -9,25 +9,18 @@ import {
 
 const devSkills = [
   {
-    title: "Electronics Engineer",
+    title: "Analytics Engineer",
     description:
-      "I’m a passionate last semester electronics engineering student with a interest in IoT, autonomous systems, data science and robotics.",
+      "I’m a experienced analytics engineer working as a bridge between data engineering and data analysis.",
     subTitle: "Tools and Skills",
-    techs: [
-      "C/C++",
-      "Arduino",
-      "Python",
-      "Micropython",
-      "Easy Eda",
-      "Electronics",
-    ],
+    techs: ["Pentaho PDI", "Prefect", "Python", "Databricks", "Alteryx"],
     icon: faBolt,
   },
 
   {
     title: "Data Analysis",
     description:
-      "I like to work with data. The fact that everything on the world is based on data, is an important insight",
+      "I also have experience in data analysis, transforming raw data into meaningful insights.",
     subTitle: "Languages and Tools",
     techs: [
       "Python",
@@ -35,15 +28,15 @@ const devSkills = [
       "Looker Studio",
       "SQL",
       "PostgreSQL",
-      "Mongo DB",
+      "SQL Server",
     ],
     icon: faProjectDiagram,
   },
 
   {
-    title: "Web Development",
+    title: "Software Development",
     description:
-      "I love hardware, but I have found in web development a place to design and place my ideas quickly",
+      "I love to create stuff. With AI and web development tools, I like to build web apps and automate tasks.",
     subTitle: "Languages and Tools",
     techs: [
       "Javascript",

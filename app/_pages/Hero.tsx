@@ -8,6 +8,8 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faCircleRight } from "@fortawesome/free-regular-svg-icons";
 
 export const Hero = () => {
+  const currentDate = new Date();
+  const age = currentDate.getFullYear() - 2000;
   return (
     <section
       className="min-h-screen grow grid place-content-start place-items-center sm:grid-cols-2"
@@ -17,13 +19,15 @@ export const Hero = () => {
       <article>
         <p className="px-2">Hello I&apos;m</p>
         <h1>Juan Riquelme</h1>
-        <h2 className="text-rich-gradient">Electronics Engineer Student</h2>
+        <h2 className="text-rich-gradient">
+          Analytics Engineer | Project Management
+        </h2>
 
         {/* Description */}
         <p className="my-3 w-full sm:w-[90%]">
-          Hello! I&apos;m a 23-year-old electronics engineering student, driven
-          by a passion for development and growth. Explore my portfolio to see
-          my development journey
+          Hello! I&apos;m a {age}-year-old analytics engineer, driven by a
+          passion for development and growth. Explore my portfolio to see my
+          development journey
         </p>
 
         {/* Let's Connect */}
