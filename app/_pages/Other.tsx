@@ -6,6 +6,82 @@ import { faFolder } from "@fortawesome/free-regular-svg-icons";
 
 const projects = [
   {
+    title: "Sales Outliers Report",
+    description:
+      "Developed a strategic BI solution to mitigate Trade Loading risks and normalize monthly sales pacing. The project addressed a historical trend where % of monthly sales was concentrated in the Last 7 Days (L7D), impacting supply chain health and inventory levels.",
+    isFeatured: true,
+    github: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    deploy: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    techstack: ["Python", "SQL", "Power BI", "SQL Server"],
+  },
+  {
+    title: "Wholesalers & Retailers Inventory Report",
+    description:
+      "Designed and developed a comprehensive Power BI dashboard providing sales executives with actionable visibility into retail and wholesale inventories within the Traditional Channel.",
+    isFeatured: true,
+    github: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    deploy: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    techstack: ["Python", "SQL", "Power BI", "SQL Server"],
+  },
+  {
+    title: "Stock & DOI Data Pipeline + Report",
+    description:
+      "Developed a data pipeline and Power BI report to provide Sales and Logistics teams with near real time visibility into stock availability. This solution enables stock redistribution across all Distribution Centers (DCs) to minimize supply chain losses and prevent stockouts.",
+    isFeatured: true,
+    github: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    deploy: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    techstack: ["SAP ERP", "Azure", "Pentaho", "SQL", "Power BI", "SQL Server"],
+  },
+  {
+    title: "Clients Dimension Table Extraction Refactorization",
+    description:
+      "Developed a full refactor and automation of the SAP clients dimensions table extraction process. Replaced a manual workflow based on SQVI exports and a single, highly complex Alteryx flow with a scalable and maintainable architecture.",
+    isFeatured: true,
+    github: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    deploy: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    techstack: [
+      "SAP ERP",
+      "Alteryx",
+      "Pentaho",
+      "SQL",
+      "Power BI",
+      "SQL Server",
+    ],
+  },
+  {
+    title: "Autonomous Trash Can",
+    description:
+      "The TNGO is an autonomous trash can that allows you to recycle waste. For this first version, the prototype is capable of classifying papers, cans and plastic bottles. The device uses audio and image neural networks for the classification.",
+    isFeatured: true,
+    github: "https://github.com/Jrigoo/TNGO-Neural-Networks",
+    deploy: "https://github.com/Jrigoo/TNGO-Neural-Networks",
+    techstack: [
+      "Fusion-360",
+      "Python",
+      "Tensorflow",
+      "Keras",
+      "Raspberry Pi",
+      "Electronics",
+    ],
+  },
+  {
+    title: "Autonomous Vehicle",
+    description:
+      "In this project I was capable to control a vehicle so it can read GPS data to move through a path autonomously. It was using the MORAI Sim simulator",
+    isFeatured: false,
+    github: "https://github.com/Jrigoo/Simple-Autonomous-Vehicle",
+    deploy: "https://github.com/Jrigoo/Simple-Autonomous-Vehicle",
+    techstack: [
+      "Python",
+      "UDP-Sockets",
+      "Open CV",
+      "Matplotlib",
+      "Numpy",
+      "Scipy",
+      "Pyproj",
+    ],
+  },
+  {
     title: "AIESEC Exchanges Form",
     description:
       "This form provides AIESEC a tool to connect clients to internship or volunteer opportunities abroad and gather their info diretly into the Podio CRM",
@@ -48,8 +124,8 @@ export const Other = () => {
   return (
     <section className="min-h-screen mb-20 grid place-content-center">
       <header className="">
-        <h1>Other Projects</h1>
-        <p className="font-mono md:my-3">Other Projects I have Made</p>
+        <h1>Projects</h1>
+        <p className="font-mono md:my-3">Projects I have Made</p>
       </header>
 
       <div className="my-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

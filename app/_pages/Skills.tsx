@@ -9,43 +9,27 @@ import {
 
 const devSkills = [
   {
+    title: "Data Science & Analysis",
+    description:
+      "I also have experience in data analysis, transforming raw data into meaningful insights.",
+    subTitle: "Languages and Tools",
+    techs: ["Python", "Pandas", "Sklearn", "Alteryx", "Power BI", "SQL"],
+    icon: faProjectDiagram,
+  },
+  {
     title: "Analytics Engineer",
     description:
       "I’m a experienced analytics engineer working as a bridge between data engineering and data analysis.",
     subTitle: "Tools and Skills",
-    techs: ["Pentaho PDI", "Prefect", "Python", "Databricks", "Alteryx"],
+    techs: ["Pentaho PDI", "SQL Server", "Alteryx", "Python", "Databricks"],
     icon: faBolt,
   },
-
-  {
-    title: "Data Analysis",
-    description:
-      "I also have experience in data analysis, transforming raw data into meaningful insights.",
-    subTitle: "Languages and Tools",
-    techs: [
-      "Python",
-      "Power BI",
-      "Looker Studio",
-      "SQL",
-      "PostgreSQL",
-      "SQL Server",
-    ],
-    icon: faProjectDiagram,
-  },
-
   {
     title: "Software Development",
     description:
-      "I love to create stuff. With AI and web development tools, I like to build web apps and automate tasks.",
+      "I love to create stuff (like this website). I like to build web apps and automate tasks.",
     subTitle: "Languages and Tools",
-    techs: [
-      "Javascript",
-      "HTML & CSS",
-      "Typescript",
-      "Next.js",
-      "Tailwind CSS",
-      "Figma",
-    ],
+    techs: ["Javascript", "HTML & CSS", "Typescript", "Figma"],
     icon: faLaptopCode,
   },
 ];

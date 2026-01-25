@@ -20,14 +20,14 @@ export const Hero = () => {
         <p className="px-2">Hello I&apos;m</p>
         <h1>Juan Riquelme</h1>
         <h2 className="text-rich-gradient">
-          Analytics Engineer | Project Management
+          Data Analysis | Engineer | Data Science
         </h2>
 
         {/* Description */}
         <p className="my-3 w-full sm:w-[90%]">
-          Hello! I&apos;m a {age}-year-old analytics engineer, driven by a
-          passion for development and growth. Explore my portfolio to see my
-          development journey
+          Hello! I&apos;m a electronics engineer, driven by a passion for
+          development and growth. Explore my portfolio to see my development
+          journey
         </p>
 
         {/* Let's Connect */}

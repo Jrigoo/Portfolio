@@ -20,7 +20,7 @@ const eduExp = [
         date: "2022",
         title: "Platzi",
         description:
-          "I'm always like to learn by myself. Crrently in ML and AI Engineering Paths",
+          "I'm always like to learn by myself. Currently in ML and AI Engineering Paths",
       },
     ],
   },
@@ -29,13 +29,13 @@ const eduExp = [
     content: [
       {
         date: "Dec 2024 - Current",
-        title: "Analytics Engineer at AB InBev",
+        title: "Commercial Data Analyst at AB InBev",
         description:
-          "Own end-to-end data pipelines, from data ingestion to transformation and visualization, ensuring data accuracy and reliability for business decision-making.",
+          "Develop dashboards and reports to provide insights into sales performance, market trends, and customer behavior.",
       },
       {
         date: "Aug 2024 - Dec 2024",
-        title: "Associate Project Manager at ABB",
+        title: "Associate Project Manager Jr. Intern at ABB",
         description:
           "Managed a functional Mockup of NEOMs Port (Saudi Arabia) electrical system, coordinating a multidisciplinary team to ensure timely delivery and quality standards.",
       },

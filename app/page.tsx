@@ -27,7 +27,7 @@ export default async function Home() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Other />
       <Education />
       <Contact />
