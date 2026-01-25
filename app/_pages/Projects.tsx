@@ -7,44 +7,32 @@ import TNGO from "../../public/TNGO.svg";
 
 export const Projects = () => {
   const featuredProjects = [
-    {
-      id: 1,
-      title: "Autonomous Trash Can",
-      description:
-        "The TNGO is an autonomous trash can that allows you to recycle waste. For this first version, the prototype is capable of classifying papers, cans and plastic bottles. The device uses audio and image neural networks for the classification.",
-      isFeatured: true,
-      github: "https://github.com/Jrigoo/TNGO-Neural-Networks",
-      deploy: "https://github.com/Jrigoo/TNGO-Neural-Networks",
-      image: TNGO,
-      techstack: [
-        "Fusion-360",
-        "Python",
-        "Tensorflow",
-        "Keras",
-        "Raspberry Pi",
-        "Electronics",
-      ],
-    },
-    {
-      id: 2,
-      title: "Autonomous Vehicle",
-      description:
-        "In this project I was capable to control a vehicle so it can read GPS data to move through a path autonomously. It was using the MORAI Sim simulator",
-      isFeatured: true,
-      github: "https://github.com/Jrigoo/Simple-Autonomous-Vehicle",
-      deploy: "https://github.com/Jrigoo/Simple-Autonomous-Vehicle",
-      image: Autonomous,
-      techstack: [
-        "Python",
-        "UDP-Sockets",
-        "Open CV",
-        "Matplotlib",
-        "Numpy",
-        "Scipy",
-        "Pyproj",
-      ],
-    },
-  ];
+  {
+    id: 1,
+    title: "Sales Outliers Report",
+    description:
+      "Developed a strategic BI solution to mitigate Trade Loading risks and normalize monthly sales pacing. The project addressed a historical trend where % of monthly sales was concentrated in the Last 7 Days (L7D), impacting supply chain health and inventory levels.",
+    isFeatured: true,
+    github: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    deploy: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E2DAQHetndhyHagpw/profile-treasury-image-shrink_800_800/B4EZvw2OppGsAY-/0/1769272306712?e=1769904000&v=beta&t=IwJD15lt4UUC6O6AjQau_rvlRYiM01e2cF26vL3JOHU",
+    techstack: ["SQL", "Python", "Power BI", "SQL Server"],
+  },
+  {
+    id: 2,
+    title: "Wholesalers & Retailers Inventory Report",
+    description:
+      "Designed and developed a comprehensive Power BI dashboard providing sales executives with actionable visibility into retail and wholesale inventories within the Traditional Channel.",
+    isFeatured: true,
+    github: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    deploy: "https://www.linkedin.com/in/jrigoo/details/projects/",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E2DAQHJIBxrU_PNjw/profile-treasury-image-shrink_800_800/B4EZvxJC9hI8AY-/0/1769277239646?e=1769904000&v=beta&t=X1gmXEXgkHeWYYxYsKLM7_AW70taTGyreQdinQfv0Ic",
+    techstack: ["SQL", "SQL Server", "Power BI", "Power Platform"],
+  },
+];
+
   return (
     <section className="min-h-screen mb-5" id="Projects">
       <header>
